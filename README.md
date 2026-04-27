@@ -1,6 +1,6 @@
 # 🩺 HealthMate AI
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://your-render-link.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://healthmate-ai-zndt.onrender.com)
 
 A smart web-based health assistant that provides basic medicine suggestions, home care tips, and safety warnings based on user symptoms.
 
@@ -26,6 +26,7 @@ A smart web-based health assistant that provides basic medicine suggestions, hom
 ---
 
 ## 📂 Project Structure
+
 backend/
 ├── public/
 │ ├── index.html
@@ -34,13 +35,15 @@ backend/
 ├── server.js
 ├── package.json
 
+
+---
+
 ## ⚙️ Run Locally
 ```bash
 cd backend
 npm install
 npm start
 
-npm start
 Open: http://localhost:3000
 
 🧪 Example Inputs
@@ -49,14 +52,12 @@ fever headache
 stomach pain
 cold and cough
 chest pain breathing problem
-
 ⚠ Disclaimer
+
 This app provides general health advice only.
 It is NOT a substitute for professional medical consultation.
 
 👨‍💻 Author
+
 C Vishnu Vardhan
 B.Tech CSE (AI & ML) – Amity University Bengaluru
----### ✅ What you need to do- Replace:```mdhttps://your-render-link.onrender.com
-with your actual deployed link
-
