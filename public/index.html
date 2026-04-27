@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HealthMate AI</title>
+  <link rel="stylesheet" href="HealthMate-AI.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🩺 HealthMate AI</h1>
+
+    <input type="text" id="symptoms" placeholder="Enter symptoms (fever, cough...)" />
+
+    <input type="number" id="age" placeholder="Age" />
+
+    <input type="text" id="allergies" placeholder="Allergies (if any)" />
+
+    <input type="text" id="conditions" placeholder="Existing conditions" />
+
+    <button onclick="getAdvice()">Get Advice</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="HealthMate-AI.js"></script>
+</body>
+</html>
